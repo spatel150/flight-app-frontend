@@ -54,6 +54,7 @@ const FlightPage = () => {
     // (promise, resolved based on the value returned by the async function)
 
     e.preventDefault();
+    
     // prevents any default behavior of the event.
     const newFlight = { flightNumber, origin, destination };
     // creates an object called newFlight with props including flightNumber, origin, and destination
