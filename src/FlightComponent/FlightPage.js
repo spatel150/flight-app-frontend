@@ -55,6 +55,7 @@ const FlightPage = () => {
 
     e.preventDefault();
     
+
     // prevents any default behavior of the event.
     const newFlight = { flightNumber, origin, destination };
     // creates an object called newFlight with props including flightNumber, origin, and destination
